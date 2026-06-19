@@ -1,41 +1,36 @@
-# 🎓 Smart Attendance System
+# Smart Attendance System
 
-A modern Face Recognition-based Attendance Management System built with Python and Tkinter. Features a sleek dark mode interface with automated face detection and recognition capabilities.
-
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)
-![Tkinter](https://img.shields.io/badge/GUI-Tkinter-orange.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+A Face Recognition-based Attendance Management System built with Python and Tkinter. Features a clean dark mode interface with automated face detection and recognition capabilities.
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
-| 🔐 **Face Registration** | Capture and store student faces with enrollment details |
-| 📸 **Automatic Attendance** | Real-time face recognition to mark attendance |
-| 📊 **Attendance Reports** | View and export attendance records by subject |
-| 🌙 **Dark Mode UI** | Modern, professional dark theme interface |
-| 🔊 **Voice Feedback** | Text-to-speech notifications for user actions |
-| 📱 **Responsive Layout** | Grid-based UI that adapts to window resizing |
+| **Face Registration** | Capture and store student faces with enrollment details |
+| **Automatic Attendance** | Real-time face recognition to mark attendance |
+| **Attendance Reports** | View and export attendance records by subject |
+| **Dark Mode UI** | Modern dark theme interface |
+| **Voice Feedback** | Text-to-speech notifications for user actions |
+| **Responsive Layout** | Grid-based UI that adapts to window resizing |
 
 ---
 
-## 🖥️ Screenshots
+## Screenshots
 
 ### Main Dashboard
-> Modern dark theme with centered action buttons and icons
+> Dark theme with centered action buttons and icons
 
 ### Take Attendance
 > Real-time face detection with visual feedback
 
 ### Attendance Report
-> Scrollable table with styled headers showing attendance records
+> Scrollable table showing attendance records
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -61,7 +56,7 @@ A modern Face Recognition-based Attendance Management System built with Python a
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 ```
 opencv-contrib-python
@@ -73,7 +68,7 @@ pyttsx3
 
 ---
 
-## 📖 Usage
+## Usage
 
 ### 1. Register a New Student
 1. Click **"Register a New Student"** on the main dashboard
@@ -97,40 +92,40 @@ pyttsx3
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
-📁 Attendance-Management-system-using-face-recognition/
+Attendance-Management-system-using-face-recognition/
 │
-├── 📄 attendance.py              # Main dashboard & entry point
-├── 📄 automaticAttedance.py      # Face recognition attendance
-├── 📄 show_attendance.py         # View attendance reports
-├── 📄 takeImage.py               # Capture student face images
-├── 📄 trainImage.py              # Train face recognition model
-├── 📄 takemanually.py            # Manual attendance entry
+├── attendance.py              # Main dashboard & entry point
+├── automaticAttedance.py      # Face recognition attendance
+├── show_attendance.py         # View attendance reports
+├── takeImage.py               # Capture student face images
+├── trainImage.py              # Train face recognition model
+├── takemanually.py            # Manual attendance entry
 │
-├── 📄 haarcascade_frontalface_default.xml  # Face detection model
-├── 📄 requirements.txt           # Python dependencies
-├── 📄 AMS.ico                    # Application icon
+├── haarcascade_frontalface_default.xml  # Face detection model
+├── requirements.txt           # Python dependencies
+├── AMS.ico                    # Application icon
 │
-├── 📁 Attendance/                # Attendance CSV records
-│   └── 📁 [Subject]/             # Per-subject folders
+├── Attendance/                # Attendance CSV records
+│   └── [Subject]/             # Per-subject folders
 │
-├── 📁 StudentDetails/            # Student enrollment data
-│   └── 📄 studentdetails.csv
+├── StudentDetails/            # Student enrollment data
+│   └── studentdetails.csv
 │
-├── 📁 TrainingImageLabel/        # Trained face model
-│   └── 📄 Trainner.yml
+├── TrainingImageLabel/        # Trained face model
+│   └── Trainner.yml
 │
-└── 📁 UI_Image/                  # UI icons and images
-    ├── 📄 register.png
-    ├── 📄 attendance.png
-    └── 📄 verifyy.png
+└── UI_Image/                  # UI icons and images
+    ├── register.png
+    ├── attendance.png
+    └── verifyy.png
 ```
 
 ---
 
-## 🎨 UI Design System
+## UI Design System
 
 The application uses a consistent dark theme:
 
@@ -145,7 +140,7 @@ The application uses a consistent dark theme:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3** - Core programming language
 - **Tkinter** - GUI framework
@@ -157,14 +152,14 @@ The application uses a consistent dark theme:
 
 ---
 
-## ⚠️ Known Issues
+## Known Issues
 
 - Attendance calculation may show pandas warnings (cosmetic only, does not affect functionality)
 - Requires good lighting for accurate face recognition
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -174,18 +169,18 @@ The application uses a consistent dark theme:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Abdul Qadeer**
 
 ---
 
 <p align="center">
-  Made with ❤️ using Python
+  Made using Python
 </p>
